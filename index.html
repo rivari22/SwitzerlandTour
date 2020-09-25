@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo1"><span>Ri</span>variLo<span>go.</span></div>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="banner">
+                <img src="./assets/summer.jpg" alt="" id="img-index">
+                <div class="greeting">
+                    <button type="button" id="btn-started" class="btn btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="detail">
+                <div class="title">
+                    <p><span>Switzerland</span> is a country that has a variety of popular tours on the European continent. <br>  Want to know the best place to visit <br> by season?</p>
+                </div>
+                <div class="input-by-data">
+                    <p>You can type your favorite season!</p>
+                    <label for="season">Season:</label>
+                    <input placeholder="type here" list="seasons" name="list-season" id="season">
+
+                    <datalist id="seasons">
+                        <option value="summer"></option>
+                        <option value="autumn"></option>
+                        <option value="spring"></option>
+                        <option value="winter"></option>
+                    </datalist>
+                    <button id="btn-datalist" class="btn btn-sm" type="submit">submit</button>
+                </div>
+                <h3 id="greeting"></h3>
+                <div class="logo">
+                    <ul>
+                        <li id="ic-autumn" class="ic">
+                            <a href="./pages/autumn.html">
+                                <img src="./assets/icons/tree.svg" alt="">
+                                <span>Autumn</span>
+                            </a>
+                        </li>
+                        <li id="ic-summer" class="ic">
+                            <a href="./pages/summer.html">
+                                <img src="./assets/icons/parasol.svg" alt="">
+                                <span>Summer</span>
+                            </a>
+                        </li>
+                        <li id="ic-spring" class="ic">
+                            <a href="./pages/spring.html">
+                                <img src="./assets/icons/butterfly.svg" alt="">
+                                <span>Spring</span>
+                            </a>
+                        </li>
+
+                        <li id="ic-winter" class="ic">
+                            <a href="./pages/winter.html">
+                                <img src="./assets/icons/snowman.svg" alt="">
+                                <span>Winter</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="social-media">
+                    <ul>
+                        <li><a target="_blank" href="https://www.instagram.com/rivari22/"><img src="./assets/icons/instagram.svg" alt=""></a></li>
+                        <li><a  href=""><img src="./assets/icons/facebook.svg" alt=""></a></li>                            
+                        <li><a target="_blank" href="https://www.linkedin.com/in/muchammad-rivari-3572381b3/"><img src="./assets/icons/linkedin.svg" alt=""></a></li>
+                        <li><a target="_blank" href="https://twitter.com/rivari22"><img src="./assets/icons/twitter.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <h4 id="created-by">created by Rivari - Hacktiv8</h4>
+            </div>
+        </section>
+    </main>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>

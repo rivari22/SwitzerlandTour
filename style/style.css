@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+header nav {
+    justify-content: space-between;
+}
+header nav, header nav ul {
+    display: flex;
+    top: 0;
+}
+header nav ul li {
+    display: inline-block;
+    margin: 4rem;
+    font-weight: 600;
+}
+header nav .logo1 {
+    margin: 4rem;
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 1.1em;
+}
+header nav .logo1 span {
+    color: rgb(65, 65, 172);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+main {
+    height: 100vh;
+    overflow: hidden;
+}
+.hero {
+    display: flex;
+    justify-content:space-between
+}
+.banner img {
+    background-size: cover;
+    height: 100vh;
+    border-radius: 0 10% 10% 0;
+    width: 70rem;
+    transition: all 5s;
+    cursor: pointer;
+}
+.detail {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    transition: all 6s;
+}
+.detail p {
+    font-size: 2em;
+    margin-top: 10px;
+}
+.detail h3 {
+    width: 100%;
+    margin: 1rem 10rem 5px 0;
+    font-size: 2em;
+    font-weight: bolder;
+    /* transition: all 5s; */
+    display: none;
+}
+.detail .logo ul {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    display: none;
+}
+.detail .logo ul .ic {
+    display: inline-block;
+    display: none;
+}
+.detail .logo ul .ic:hover {
+    display: inline-block;
+    filter: contrast(150%) brightness(150%) drop-shadow(8px 8px 10px black);
+    
+}
+.detail .logo ul li a {
+    margin-right: 5rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: inline-flex;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3em;
+}
+.detail .logo ul li span {
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.detail .logo ul li img {
+    max-width: 7rem;
+    margin: 2px 10px 0 -40px;
+}
+.title {
+    background-color:  rgb(206, 245, 255);
+    padding: 4px;
+}
+.title p span {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.btn {
+    background-color: rgb(135, 224, 246);
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 1px 1px 2px 1px black;
+}
+.btn-sm {
+    font-size: 1.1em;
+    padding: 2px;
+}
+.btn-lg {
+    font-size: 1.5em;
+    padding: 10px 20px;
+}
+
+#btn-started {
+    bottom: 0;
+    left: 45%;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 6rem;
+    border-radius: 8px 8px 30px 8px;
+}
+
+.input-by-data label {
+    font-size: 1.5em;
+} 
+.input-by-data input {
+    font-size: 1.2em;
+}
+
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin: 10px 15px 0 0;
+    padding: 10px;
+}
+.social-media ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.social-media ul li {
+    display: inline-block;
+    margin: 10px;
+}
+.social-media ul li a {
+    display: inline-flex;
+    text-decoration: none;
+}
+.social-media img {
+    max-width: 3rem;
+}
+.detail h4 {
+    display: flex;
+    justify-content: center;
+    margin: 0 15px 0 0;
+}
