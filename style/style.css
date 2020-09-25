@@ -47,13 +47,13 @@ main {
     height: 100vh;
     border-radius: 0 10% 10% 0;
     width: 70rem;
-    transition: all 5s;
+    transition: all 2s;
     cursor: pointer;
 }
 .detail {
     margin-top: 5rem;
     margin-left: 2rem;
-    transition: all 6s;
+    transition: all 2.5s;
 }
 .detail p {
     font-size: 2em;
@@ -64,7 +64,6 @@ main {
     margin: 1rem 10rem 5px 0;
     font-size: 2em;
     font-weight: bolder;
-    /* transition: all 5s; */
     display: none;
 }
 .detail .logo ul {
@@ -97,7 +96,7 @@ main {
 }
 .detail .logo ul li img {
     max-width: 7rem;
-    margin: 2px 10px 0 -40px;
+    margin: 2px 5px 0 -40px;
 }
 .title {
     background-color:  rgb(206, 245, 255);
@@ -139,11 +138,10 @@ main {
     font-size: 1.2em;
 }
 
-
 .social-media {
     display: flex;
     justify-content: center;
-    margin: 10px 15px 0 0;
+    margin: 0 40px 0 0;
     padding: 10px;
 }
 .social-media ul {

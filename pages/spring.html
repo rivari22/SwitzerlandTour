@@ -3,8 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Spring</title>
     <link rel="stylesheet" href="../style/pages.css">
+    <style>
+        .bold {
+            font-size: 1.05em;
+            font-weight: bolder; 
+            font-style: italic;
+        }
+    </style>
 </head>
 <body>
     <div class="main-spring">
@@ -39,21 +46,42 @@
             </div>
             <div class="content">
                 <article>
-                    <img src="../assets/img-pages/spring/spring-rigi-panorama-800x500.jpg" alt="">
+                    <div class="img-wrap">
+                        <img src="../assets/img-pages/spring/spring-rigi-panorama-800x500.jpg" alt="Mount Rigi" id="img-1" class="img-content">
+                        <div class="modal" id="my-modal-1">
+                            <span class="close" id="close-1">&times;</span>
+                            <img src="" class="modal-content" alt="" id="img-modal-1">
+                            <div id="caption-1" class="caption"></div>
+                        </div>
+                    </div>
                     <figure>
-                        <p> The Lucerne area is a great choice for spring as there are many lower elevation areas to explore. Our favorite spring hike here is the panorama trail at Mount Rigi, which can vary in length depending on your schedule and ability. You can combine this with a lake cruise to see even more mountains around each corner. The trains up Rigi run year round without a break. The cable cars take breaks in spring and fall, but these are not required for a visit.</p>
+                        <p> The Lucerne area is a great choice for spring as there are many lower elevation areas to explore. Our favorite spring hike here is the panorama trail at <span class="bold">Mount Rigi</span>, which can vary in length depending on your schedule and ability. You can combine this with a lake cruise to see even more mountains around each corner. The trains up Rigi run year round without a break. The cable cars take breaks in spring and fall, but these are not required for a visit.</p>
                     </figure>
                 </article>
                 <article>
-                    <img src="../assets/img-pages/spring/spring-ebenalp-800x500.jpg" alt="">
+                    <div class="img-wrap">
+                        <img src="../assets/img-pages/spring/spring-ebenalp-800x500.jpg" alt="The Ebenalp" id="img-2" class="img-content">
+                        <div class="modal" id="my-modal-2">
+                            <span class="close" id="close-2">&times;</span>
+                            <img src="" class="modal-content" alt="" id="img-modal-2">
+                            <div id="caption-2" class="caption"></div>
+                        </div>
+                    </div>
                     <figure>
-                        <p>The Ebenalp cable car opens in mid-May, taking you to the top of these cliffs (1600m). It’s an easy walk down to this restaurant built into the side of the cliff, a nice place for lunch with a view. You can optionally take the longer, tougher hike down to the beautiful Lake Seealp and have lakeside picnic and row across the lake. As one of the only lifts open in mid-May, it can be crowded on sunny weekends, but you should go anyway. It’s so worth it. You can also hike to the lake year round without using the cable car.</p>
+                        <p><span class="bold">The Ebenalp</span> cable car opens in mid-May, taking you to the top of these cliffs (1600m). It’s an easy walk down to this restaurant built into the side of the cliff, a nice place for lunch with a view. You can optionally take the longer, tougher hike down to the beautiful Lake Seealp and have lakeside picnic and row across the lake. As one of the only lifts open in mid-May, it can be crowded on sunny weekends, but you should go anyway. It’s so worth it. You can also hike to the lake year round without using the cable car.</p>
                     </figure>
                 </article>
                 <article>
-                    <img src="../assets/img-pages/spring/spring-oeschinensee-800x500.jpg" alt="">
+                    <div class="img-wrap">
+                        <img src="../assets/img-pages/spring/spring-oeschinensee-800x500.jpg" alt="The Kandersteg" id="img-3" class="img-content">
+                        <div class="modal" id="my-modal-3">
+                            <span class="close" id="close-3">&times;</span>
+                            <img src="" class="modal-content" alt="" id="img-modal-3">
+                            <div id="caption-3" class="caption"></div>
+                        </div>
+                    </div>
                     <figure>
-                        <p>In mid-May, the Kandersteg cable car starts running for summer season, taking you up to an easy trail to this beautiful alpine lake. The higher elevation trails here won’t be open yet. But this is a wonderful place to enjoy a lakeside picnic, admiring the impressive mountain peaks above. In 2019, the cable car starts running 11.May. Before that, you could hike up to the lake from Kandersteg, about 1hr.</p>
+                        <p>In mid-May, <span class="bold">The Kandersteg</span> cable car starts running for summer season, taking you up to an easy trail to this beautiful alpine lake. The higher elevation trails here won’t be open yet. But this is a wonderful place to enjoy a lakeside picnic, admiring the impressive mountain peaks above. In 2019, the cable car starts running 11.May. Before that, you could hike up to the lake from Kandersteg, about 1hr.</p>
                     </figure>
                 </article>
             </div>
@@ -62,5 +90,6 @@
             <p>Copyright &copy; Rivari - Hacktiv8</p>
         </footer>
     </div>
+    <script src="../script/pages.js"></script>
 </body>
 </html>

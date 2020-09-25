@@ -22,9 +22,9 @@ const render = () => {
     setTimeout(() => {
         h3.style.display = "inline-block"
         ul.style.display = "flex"
-    }, 4500);
+    }, 3000);
     btn.style.display = "none"
-    socialMedia.style.margin = "50px 50px 0 0"
+    socialMedia.style.margin = "0 40px 0 0"
     createdBy.style.margin = "0 45px 0 0"
 }
 const renderedSlide = () => {
@@ -32,12 +32,13 @@ const renderedSlide = () => {
     detail.style.marginLeft = "2rem"
     greeting.innerHTML = `Hey ${promptValue}. What are you looking for?`;
     greeting.textContent
+    socialMedia.style.margin = "0 40px 0 0"
     for(let i = 0; i < icon.length; i++) {
         icon[i].style.display = "inline-block"
     }
     setTimeout(() => {
         btn.style.display = "block"
-    }, 5000);
+    }, 3000);
 }
 
 btn.addEventListener("click", function () {
